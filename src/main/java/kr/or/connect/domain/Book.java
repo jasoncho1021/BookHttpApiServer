@@ -28,6 +28,11 @@ public class Book {
 		this.id = id;
 	}
 
+	@Override
+	public String toString() {
+		return "Book [id=" + id + ", title=" + title + ", author=" + author + ", page=" + page + "]";
+	}
+
 	public String getTitle() {
 		return title;
 	}
